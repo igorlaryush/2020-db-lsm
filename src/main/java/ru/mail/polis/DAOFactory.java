@@ -21,6 +21,7 @@ import org.jetbrains.annotations.NotNull;
 import java.io.File;
 import java.io.IOException;
 
+
 /**
  * Custom {@link DAO} factory.
  *
@@ -54,6 +55,6 @@ public final class DAOFactory {
         }
 
         // TODO: Implement me
-        throw new UnsupportedOperationException("Implement me!");
+        return new ImplDAO();
     }
 }
