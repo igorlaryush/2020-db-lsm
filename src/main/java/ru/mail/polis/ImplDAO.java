@@ -22,7 +22,7 @@ public class ImplDAO implements DAO {
     }
 
     @Override
-    public void upsert(@NotNull  final ByteBuffer key, @NotNull final ByteBuffer value) throws IOException {
+    public void upsert(@NotNull final ByteBuffer key, @NotNull final ByteBuffer value) throws IOException {
         map.put(key, value);
     }
 
