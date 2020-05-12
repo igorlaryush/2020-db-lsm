@@ -7,6 +7,8 @@ import java.nio.ByteBuffer;
 import java.util.Iterator;
 import java.util.SortedMap;
 import java.util.TreeMap;
+import ru.mail.polis.DAO;
+import ru.mail.polis.Record;
 
 public class ImplDAO implements DAO {
     private final SortedMap<ByteBuffer, ByteBuffer> map = new TreeMap<>();
