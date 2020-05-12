@@ -3,7 +3,6 @@ package ru.mail.polis;
 import org.jetbrains.annotations.NotNull;
 
 import java.nio.ByteBuffer;
-import java.util.Optional;
 
 public class Value implements Comparable<Value> {
     private final long timestamp;
@@ -24,7 +23,6 @@ public class Value implements Comparable<Value> {
     boolean isTombstone() {
         return data == null;
     }
-
 
     ByteBuffer getData() {
         assert !isTombstone();
