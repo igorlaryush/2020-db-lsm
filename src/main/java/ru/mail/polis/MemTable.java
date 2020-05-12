@@ -51,8 +51,6 @@ public class MemTable implements Table {
         map.put(key.duplicate(), new Value(System.currentTimeMillis()));
     }
 
-
-
     @Override
     public long getSizeInByte() {
         return curSizeInBytes;

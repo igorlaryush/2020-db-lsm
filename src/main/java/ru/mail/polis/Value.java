@@ -29,7 +29,6 @@ public class Value implements Comparable<Value> {
         return data.asReadOnlyBuffer();
     }
 
-
     long getTimestamp() {
         return timestamp;
     }
