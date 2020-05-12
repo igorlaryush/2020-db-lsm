@@ -54,6 +54,6 @@ public final class DAOFactory {
         }
 
         // TODO: Implement me
-        return new ImplDAO();
+        return new LSMDAO(data, (int)MAX_HEAP / 32);
     }
 }
